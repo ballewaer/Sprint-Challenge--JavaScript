@@ -30,11 +30,22 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. Describe the biggest difference between `.forEach` & `.map`.
 
+    .forEach and .map both runthough an array, but map creates a new array.
+
 2. What is the difference between a function and a method?
+
+    functions and methods are similar, but  
 
 3. What is closure?
 
+    Closure 
+
 4. Describe the four rules of the 'this' keyword.
+
+    - New Binding - adds a new instance to an already created object.
+    - Window Binding- if no other pronciples meet, JavaScript will send objects to the window.
+    - Implicit Binding- using `this` to call a method on a parent object.
+    - Explicit Binding- using alond with callm bindm apply to manipulate "args" from the object.
 
 5. Why do we need super() in an extended class?
 
@@ -49,7 +60,7 @@ Follow these steps to set up and work on your project:
 - [ ] Create a pull request before you start working on the project requirements.  You will continuously push your updates throughout the project.
 - [ ] You are now ready to build this project with your preferred IDE
 - [ ] Implement the project on your Branch, committing changes regularly.
-- [ ] Push commits: git push origin `<firstName-lastName>`.
+<!-- - [ ] Push commits: git push origin `<firstName-lastName>`. -->
 
 Follow these steps for completing your project:
 
