@@ -34,20 +34,21 @@ Edit this document to include your answers after each question. Make sure to lea
 
 2. What is the difference between a function and a method?
 
-    functions and methods are similar, but  
+    functions and methods are similar, but a method is a function that sets a parameter for an object. 
 
 3. What is closure?
 
-    Closure 
+    Closure is used for inhertance, meaning it's used for nesting functions, child functions can access the parents scope. 
 
 4. Describe the four rules of the 'this' keyword.
 
     - New Binding - adds a new instance to an already created object.
     - Window Binding- if no other pronciples meet, JavaScript will send objects to the window.
     - Implicit Binding- using `this` to call a method on a parent object.
-    - Explicit Binding- using alond with callm bindm apply to manipulate "args" from the object.
+    - Explicit Binding- using alond with callm bindm apply to manipulate "args" from the object. (uses .call, .apply, or .bind method)
 
 5. Why do we need super() in an extended class?
+    super () gives the parent class the attributes of the child class and replaces .call
 
 ## Project Set up
 
