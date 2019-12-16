@@ -160,8 +160,10 @@ The zoos are concerned about animals with a lower population count. Using filter
 
 */
 const lowPopulationAnimals = [];
-zooAnimals.filter(Object=>Object.population<5?lowPopulationAnimals.push(Object):0)
+zooAnimals.filter (Object => Object.population < 5 ? lowPopulationAnimals.push (Object):0) // This replaces an if/else statment.  Everything in front of the "?" (to the left) IF it's true, THEN do everything after the "?" (to the right) - to the colon.  Everything after, is if it's false.
 console.log(lowPopulationAnimals);
+
+//Ternary
 
 /* Request 4: .reduce() 
 
