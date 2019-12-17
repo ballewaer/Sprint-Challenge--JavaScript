@@ -30,26 +30,38 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. Describe the biggest difference between `.forEach` & `.map`.
 
+    .forEach and .map both runthough an array, but map creates a new array.
+
 2. What is the difference between a function and a method?
+
+    functions and methods are similar, but a method is a function that sets a parameter for an object. 
 
 3. What is closure?
 
+    Closure is used for inhertance, meaning it's used for nesting functions, child functions can access the parents scope. 
+
 4. Describe the four rules of the 'this' keyword.
 
+    - New Binding - adds a new instance to an already created object.
+    - Window Binding- if no other pronciples meet, JavaScript will send objects to the window.
+    - Implicit Binding- using `this` to call a method on a parent object.
+    - Explicit Binding- using alond with callm bindm apply to manipulate "args" from the object. (uses .call, .apply, or .bind method)
+
 5. Why do we need super() in an extended class?
+    super () gives the parent class the attributes of the child class and replaces .call
 
 ## Project Set up
 
 Follow these steps to set up and work on your project:
 
-- [ ] Create a forked copy of this project.
-- [ ] Add TL as collaborator on Github.
-- [ ] Clone your OWN version of Repo (Not Lambda's by mistake!).
-- [ ] Create a new Branch on the clone: git checkout -b `<firstName-lastName>`.
+<!-- - [ ] Create a forked copy of this project. -->
+<!-- - [ ] Add TL as collaborator on Github. -->
+<!-- - [ ] Clone your OWN version of Repo (Not Lambda's by mistake!). -->
+<!-- - [ ] Create a new Branch on the clone: git checkout -b `<firstName-lastName>`. -->
 - [ ] Create a pull request before you start working on the project requirements.  You will continuously push your updates throughout the project.
 - [ ] You are now ready to build this project with your preferred IDE
 - [ ] Implement the project on your Branch, committing changes regularly.
-- [ ] Push commits: git push origin `<firstName-lastName>`.
+<!-- - [ ] Push commits: git push origin `<firstName-lastName>`. -->
 
 Follow these steps for completing your project:
 
